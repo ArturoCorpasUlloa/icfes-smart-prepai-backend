@@ -19,7 +19,8 @@ app.get('/', (req, res) => {
     res.send('Bienvenido a Icfes Smart PrepAI API');
 });
 
-// Iniciar el servidor
+// 🚀 Iniciar servidor
 app.listen(port, () => {
     console.log(`Servidor corriendo en http://localhost:${port}`);
 });
+
